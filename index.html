@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Photo</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background: #0f1724;
+      color: #e6eef8;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      margin:0;
+    }
+    .photo-card{
+      max-width:900px;
+      width:95%;
+      padding:16px;
+      border-radius:12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      text-align:center;
+    }
+    img{
+      width:100%;
+      height:auto;
+      border-radius:10px;
+      display:block;
+    }
+    .caption{
+      margin-top:12px;
+      font-size:0.95rem;
+      opacity:0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="photo-card">
+    <img src="images/myphoto.jpg" alt="Portrait of [Your Name]" />
+    <div class="caption">This is me — feel free to share!</div>
+  </div>
+</body>
+</html>
